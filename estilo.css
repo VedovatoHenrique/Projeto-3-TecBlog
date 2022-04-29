@@ -1,0 +1,126 @@
+/*Limpar fomratações do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Formatações básicas do código*/
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: ghostwhite;
+}
+
+
+/* Estrutura do Layout*/
+
+#principal{
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+    
+}
+#logo, #menu{
+    padding: 10px;
+}
+
+.white{
+    color: white;
+}
+
+h1{
+    font-size: 2,5em;
+    color: #4e4e4e;
+}
+h2{
+    color: orange
+}
+
+/*formatação links*/
+a{
+    text-decoration: none;
+}
+ a:link, a:visited{
+    color: orange;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/*Formatação para links dentro do Menu*/
+#menu a:link, #menu a:visited{
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: orange;
+    background-color: white;
+    text-decoration: underline;
+}
+/*Formatação para links dentro do Menu*/
+
+
+
+
+/*Feed de Noticias*/
+
+#feed{
+    background-color: ghostwhite;
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#posts{
+    width: 660px;
+    float: left;
+}
+
+
+#footnote{
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    background-color: #ccc;
+}
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.datapost{
+    font-size: 0.75em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Conteudo Lateral */
+#rightNotices{
+    width: 240px;
+    float: right;
+}
+.conteudolateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom:  15px;
+}
+.postslateral{
+    padding: 5px;
+    font-size: 0,8;
+    background-color: white;
+}
+
+h3{
+    color:#4e4e4e;
+    background: #ccc;
+    padding: 5px;
+}
+
+#rightNotices p{
+    margin-bottom: 5px;
+}
+
